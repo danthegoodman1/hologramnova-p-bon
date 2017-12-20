@@ -11,7 +11,7 @@ So if you are here, you probably want to make my Bring-Your-Own-Network Pentesti
 ### What is it!?1?!
 **CALM DOWN.** Oh wait I wrote that, you probably weren’t screaming…
 
-Well, it’s a lot of things! Well, it can be at least. Simply put, the P-BON is a penetration testing platform designed with multi-factor persistence in mind. With P-BON, maintaining access to a remote network has never been easier. With the power of a 3G cellular connection, you make sure that P-BON keeps you connected, even if the internet goes out at the target location.
+It’s a lot of things! Well, it can be at least. Simply put, the P-BON is a penetration testing platform designed with multi-factor persistence in mind. With P-BON, maintaining access to a remote network has never been easier. With the power of a 3G cellular connection, you make sure that P-BON keeps you connected, even if the internet goes out at the target location.
 
 That was quite vague… What can I do with it?
 
@@ -174,3 +174,9 @@ One important thing to note about doing the P4wnP1 version: Depending on the pay
 
 Making this as compact as possible is up to your imagination and your tinkering skills. This whole setup can fit into some quite small cases, however there is a balance between ease of use/reliability and form factor. Just be careful not to destroy anything!
 
+### Next time...
+I plan to build something significantly more complicated involving the Nova. This tool is amazingly easy to use, and super powerful at the same time.
+
+I have always had fun messing around with pentesting and drones. One of my favorites, a flying WiFi/Bluetooth/Wireless Mouse hacking drone, is impressive to both technicals and non-technicals, fun to play with, and a little scary. One gripe I have had with my current solution is the fact that my drone can fly miles away, but the connection to my RPi (or what ever mini computer I have taped to the drone) is restricted based on the WiFi card's range.
+
+In order to fix this, so I can SSH into the computer from a much farther distance, we slap a Hologram Nova on it! From my tests, this has worked hilariously well! The best part is that the effect range of attacks is no longer restricted by the computer, but the sight-line/range of the drone! Maybe I just need to use a drone that can be controlled over cellular too... hmmm...
