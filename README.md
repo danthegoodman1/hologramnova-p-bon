@@ -13,7 +13,7 @@ So if you are here, you probably want to make my Bring-Your-Own-Network Pentesti
 
 It’s a lot of things! Well, it can be at least. Simply put, the P-BON is a penetration testing platform designed with multi-factor persistence in mind. With P-BON, maintaining access to a remote network has never been easier. With the power of a 3G cellular connection, you make sure that P-BON keeps you connected, even if the internet goes out at the target location.
 
-That was quite vague… What can I do with it?
+*That was quite vague… What can I do with it?*
 
 ### P4wnP1 3G:
 Get the whole [P4wnP1](https://github.com/mame82/P4wnP1) suite, An expansive library of USB interface attacks, controlled from anywhere in the world.
