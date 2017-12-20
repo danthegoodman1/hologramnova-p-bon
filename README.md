@@ -158,7 +158,7 @@ My suggestion? Do this instead: Get these flexible MicroUSB to USB adapters, and
 *But if you really want to make something super custom...*
 We are going to want to solder some wires up to the gold pads on the bottom of the Pi, and onto the pins of a female USB port. I originally wrote a tutorial, but then I remembered [this video by N-O-D-E](https://n-o-d-e.net/dongle3.html) and found it to be much better, but the middle two pads are going to be switched for a female connector. Plus it shows how you could make your own case if you were inclined to do so.
 
-**BE VERY CAREFUL DOING THIS!** I destroyed the data for the usb port somehow in the process of this on my Pi! That's the main reason I am not writing a super detailed tutorial for custom USB soldering, I really don't suggest it. It should only be used for super professional applications, and if that is the case, a professional most likely isn't going to need me to tell them how to do it.
+**BE VERY CAREFUL DOING THIS!** I destroyed the data for the usb port somehow in the process of this on my RPi Zero W! That's the main reason I am not writing a super detailed tutorial for custom USB soldering, I really don't suggest it. It should only be used for super professional applications, and if that is the case, a professional most likely isn't going to need me to tell them how to do it.
 
 I would also suggest making sure those wires won’t make bad connections in any way by adding a few dabs of hot glue to the pads, as well as a glob around all the connections to the solder points, and maybe a final layer of electrical tape for protection.
 
@@ -170,7 +170,7 @@ You have now installed the P4wnP1 suite onto your P-BON! Now, just make sure you
 
 One important thing to note about doing the P4wnP1 version: Depending on the payload (other than the network only payload), it can kill useage of the Nova to the USB port because it turns the USB port into a HID interface (going away from the Pi). This means that you can probably only set it once before you can no longer access it from SSH.
 
-**The Solution?** 2 P-BONs! You can have one set as a dedicated SSH device to connect to, and then to connect to the WiFi network that the other P-BON will create. This works hilariously well. Just be make sure to not disable the WiFi on the slave P-BON, and make it a hidden network (P4wnP1 has support for that) so that the Controlling P-BON can still connect to it, but anyone who looks for WiFi networks doesn’t see it. Because that would ruin the stealth!
+**The Solution?** 2 RPis! You can have one set as a dedicated cellular SSH device, using it to connect to the WiFi network that the other RPi (running P4wnP1) creates. This works hilariously well! Just be make sure to not disable the WiFi on the RPis, and make it a hidden network on the P4wnP1 RPi (P4wnP1 has support for that), because otherwise that would ruin the stealth!
 
 Making this as compact as possible it up to your imagination, and your tinkering skills. This whole setup can be fit into some quite small cases, however there is a balance between easy of use/reliability and form factor. Just be careful not to destroy everything!
 
