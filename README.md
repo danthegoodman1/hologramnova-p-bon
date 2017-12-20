@@ -172,5 +172,5 @@ One important thing to note about doing the P4wnP1 version: Depending on the pay
 
 **The Solution?** 2 RPis! You can have one set as a dedicated cellular SSH device, using it to connect to the WiFi network that the other RPi (running P4wnP1) creates. This works hilariously well! Just don't disable the WiFi on the RPis, and make the P4wnP1 RPi a hidden network (P4wnP1 has support for that), because otherwise that would ruin the stealth!
 
-Making this as compact as possible it up to your imagination, and your tinkering skills. This whole setup can be fit into some quite small cases, however there is a balance between easy of use/reliability and form factor. Just be careful not to destroy everything!
+Making this as compact as possible is up to your imagination and your tinkering skills. This whole setup can fit into some quite small cases, however there is a balance between ease of use/reliability and form factor. Just be careful not to destroy anything!
 
