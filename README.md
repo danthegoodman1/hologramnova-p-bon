@@ -158,7 +158,7 @@ My suggestion? Do this instead: Get these flexible MicroUSB to USB adapters, and
 *But if you really want to make something super custom...*
 We are going to want to solder some wires up to the gold pads on the bottom of the Pi, and onto the pins of a female USB port. I originally wrote a tutorial, but then I remembered [this video by N-O-D-E](https://n-o-d-e.net/dongle3.html) and found it to be much better, but the middle two pads are going to be switched for a female connector. Plus it shows how you could make your own case if you were inclined to do so.
 
-BE VERY CAREFUL DOING THIS! I destroyed the data for the usb port somehow in the process of this on my Pi! That's the main reason I am not writing a super detailed tutorial for custom USB soldering, I really don't suggest it. It should only be used for super professional applications, and if that is the case, a professional most likely isn't going to need me to tell them how to do it.
+**BE VERY CAREFUL DOING THIS!** I destroyed the data for the usb port somehow in the process of this on my Pi! That's the main reason I am not writing a super detailed tutorial for custom USB soldering, I really don't suggest it. It should only be used for super professional applications, and if that is the case, a professional most likely isn't going to need me to tell them how to do it.
 
 I would also suggest making sure those wires won’t make bad connections in any way by adding a few dabs of hot glue to the pads, as well as a glob around all the connections to the solder points, and maybe a final layer of electrical tape for protection.
 
