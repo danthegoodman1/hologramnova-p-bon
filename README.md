@@ -170,7 +170,7 @@ You have now installed the P4wnP1 suite onto your P-BON! Now, just make sure you
 
 One important thing to note about doing the P4wnP1 version: Depending on the payload (other than the network only payload), it can kill useage of the Nova to the USB port because it turns the USB port into a HID interface (going away from the Pi). This means that you can probably only set it once before you can no longer access it from SSH.
 
-**The Solution?** 2 RPis! You can have one set as a dedicated cellular SSH device, using it to connect to the WiFi network that the other RPi (running P4wnP1) creates. This works hilariously well! Just be make sure to not disable the WiFi on the RPis, and make it a hidden network on the P4wnP1 RPi (P4wnP1 has support for that), because otherwise that would ruin the stealth!
+**The Solution?** 2 RPis! You can have one set as a dedicated cellular SSH device, using it to connect to the WiFi network that the other RPi (running P4wnP1) creates. This works hilariously well! Just make sure to not disable the WiFi on the RPis, and make it a hidden network on the P4wnP1 RPi (P4wnP1 has support for that), because otherwise that would ruin the stealth!
 
 Making this as compact as possible it up to your imagination, and your tinkering skills. This whole setup can be fit into some quite small cases, however there is a balance between easy of use/reliability and form factor. Just be careful not to destroy everything!
 
