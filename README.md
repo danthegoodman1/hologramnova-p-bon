@@ -1,7 +1,7 @@
 # P-BON
 
 
-A cellular pentesting suite
+An on-site cellular pentesting suite. Bring your own network, so you never have to worry about sneaking out through their's.
 
 ---
 ### Hey!
