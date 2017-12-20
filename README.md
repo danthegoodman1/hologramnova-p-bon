@@ -43,7 +43,7 @@ Keep remote access to a network, without having to worry many intrusion-detectio
 ## Creation & Installation:
 
 ### Install raspbian on a Micro-SD card:
-Head on over to the raspbian download page here (link), and download the latest version of raspbian. You can use either version, although I prefer lite since you will probably never use the desktop environment with this. If you are tackling this project, I imagine you are familiar with the process of installing Raspbian on a Micro-SD card.
+Head on over to the [raspbian download page](https://www.raspberrypi.org/downloads/raspbian/), and download the latest version of raspbian. You can use either version, although I prefer lite since you will probably never use the desktop environment with this. If you are tackling this project, I imagine you are familiar with the process of installing Raspbian on a Micro-SD card.
 
 ### Register your Nova’s sim card:
 [See the tutorial here on how to do that](https://hologram.io/docs/guide/connect/connect-device/#sim-activation). 
