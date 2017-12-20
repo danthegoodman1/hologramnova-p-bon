@@ -153,7 +153,7 @@ Now go ahead and hit **Control + X** and press **Y** when it prompts you to save
 ### Solder up that USB socket and stuff away the Nova… Or not...:
 Personally, I ended up just using the [Adafruit Zero4U Hat](https://www.adafruit.com/product/3298), giving me extra USB ports to add other devices.
 
-My suggestion? Do this instead: Get these flexible MicroUSB to USB adapters, and use it to bend the cable easily back into whatever case you are using. I saves time, effort, and doesn’t risk destroying your Pi like I did! If you are using a full size Pi, or something else with normal USB ports, I would suggest using this
+My suggestion? Do this instead: [Get these flexible MicroUSB to USB adapters](https://smile.amazon.com/gp/product/B01LWOASY7/ref=oh_aui_search_detailpage?ie=UTF8&psc=1), and use it to bend the cable easily back into whatever case you are using. I saves time, effort, and doesn’t risk destroying your Pi like I did! If you are using a full size Pi, or something else with normal USB ports, I would suggest using this
 
 *But if you really want to make something super custom...*
 We are going to want to solder some wires up to the gold pads on the bottom of the Pi, and onto the pins of a female USB port. I originally wrote a tutorial, but then I remembered [this video by N-O-D-E](https://n-o-d-e.net/dongle3.html) and found it to be much better, but the middle two pads are going to be switched for a female connector. Plus it shows how you could make your own case if you were inclined to do so.
