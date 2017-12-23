@@ -105,6 +105,8 @@ Yours should look like this:
 
 Now go ahead and hit **Control + X** and press **Y** when it prompts you to save or discard changes.
 
+**Keep in mind** from now on, network traffic will **by default** go through the cellular modem, so don't waste all your data right now. keeping this command commented out until you are ready to deploy may be a good idea. Also, setting your prefered overages action (whether to allow or prevent) in the hologram dashboard is also a good idea. I accidentally downloaded P4wnP1 over the cellular connection, and took a lot of overage charges when downloading and installing.
+
 Now might also be a good time to reboot the Pi for good measure (it will also allow us to test out our new 3G SSH capabilities too!). Go ahead and run:
 ```sh
 sudo reboot
